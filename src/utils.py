@@ -56,8 +56,8 @@ def preprocess_data(df, target:str='median_house_value'):
 
         x_train, x_val, y_train, y_test = split_data(df)
 
-        rfecv = load_model('models\RFECV_fitted.joblib')
-        scaler = load_model('models\RobustScaler_fitted.joblib')
+        rfecv = load_model('models/RFECV_fitted.joblib')
+        scaler = load_model('models/RobustScaler_fitted.joblib')
 
         x_train_new = rfecv.transform(x_train)
         x_val_new = rfecv.transform(x_val)
