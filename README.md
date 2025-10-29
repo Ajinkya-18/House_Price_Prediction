@@ -7,6 +7,11 @@ This updated README documents the repository structure, implementation details (
 
 ---
 
+## Streamlit App Link
+[House Price Predictor](https://housepriceprediction-eyw2ifj2trmnwqeepr45qc.streamlit.app/)
+
+---
+
 ## Key highlights
 
 - Problem: Regression — predict median house value for a geographic block in California.
@@ -175,10 +180,7 @@ Replace `trained_model.pkl` and sample input path with actual filenames from the
 For precise numbers and plots, open `notebooks/HousePricePrediction.ipynb` which contains the training logs, cross-validation results and evaluation visualizations.
 
 ---
-## Streamlit App Link
-- [House Price Predictor](https://housepriceprediction-eyw2ifj2trmnwqeepr45qc.streamlit.app/)
 
----
 ## License & Author
 
 Author: Ajinkya Tamhankar
